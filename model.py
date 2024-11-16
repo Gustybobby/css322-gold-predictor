@@ -162,7 +162,7 @@ def gold_price_vs_cpi():
                 r2_p4,
                 fit_p4(synth),
                 "black",
-                lambda a, b: f"poly_4_regression: {round(a[0],8)}x^4 + {round(a[1],4)}x^3 + {round(a[2],4)}x^2 + {round(a[3],4)}x + {round(a[4],4)}, R^2: {round(b,4)}",
+                lambda a, b: f"poly_4_regression: {round(a[0],8)}x^4 + {round(a[1],8)}x^3 + {round(a[2],8)}x^2 + {round(a[3],4)}x + {round(a[4],4)}, R^2: {round(b,4)}",
             ),
         ],
         title="Gold Price vs. CPI",
